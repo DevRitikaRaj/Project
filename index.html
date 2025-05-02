@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlogSphere</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">BlogSphere</div>
+      <ul class="nav-links">
+        <li><a href="#" onclick="navigate('home')">Home</a></li>
+        <li><a href="#" onclick="navigate('features')">Features</a></li>
+        <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+        <li><button class="btn-login" onclick="login()">Login</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Write. Share. Inspire.</h1>
+      <p>Start your blogging journey today with BlogSphere - a platform for writers, creators, and thinkers.</p>
+      <button class="btn-start" onclick="startBlogging()">Get Started</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why BlogSphere?</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Easy to Use</h3>
+        <p>Intuitive interface that lets you focus on your writing.</p>
+      </div>
+      <div class="feature">
+        <h3>Beautiful Themes</h3>
+        <p>Choose from a range of modern and customizable themes.</p>
+      </div>
+      <div class="feature">
+        <h3>Community</h3>
+        <p>Connect with thousands of bloggers worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BlogSphere. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
