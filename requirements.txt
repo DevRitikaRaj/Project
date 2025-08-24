@@ -1,0 +1,4 @@
+# rdkit via apt: python3-rdkit (system site-packages)
+# numpy/pandas/sklearn via apt
+streamlit==1.37.1
+py3Dmol==2.0.4
